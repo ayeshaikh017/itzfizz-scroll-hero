@@ -4,13 +4,11 @@
 
 A premium, scroll-controlled hero section with a staggered intro, animated impact metrics and a car that drives across the screen as you scroll.
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-c6ff3d?style=for-the-badge&logo=githubpages&logoColor=black)](https://ayeshaikh017.github.io/itzfizz-scroll-hero/)
-[![Render](https://img.shields.io/badge/Render-Mirror-46E3B7?style=for-the-badge&logo=render&logoColor=black)](https://itzfizz-scroll-hero.onrender.com)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-46E3B7?style=for-the-badge&logo=render&logoColor=black)](https://itzfizz-scroll-hero.onrender.com)
 [![Next.js](https://img.shields.io/badge/Next.js-14-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![GSAP](https://img.shields.io/badge/GSAP-ScrollTrigger-88CE02?style=for-the-badge&logo=greensock&logoColor=white)](https://gsap.com/)
-[![Deploy](https://img.shields.io/github/actions/workflow/status/ayeshaikh017/itzfizz-scroll-hero/deploy.yml?style=for-the-badge&label=Pages%20Deploy)](https://github.com/ayeshaikh017/itzfizz-scroll-hero/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](#-license)
 
 </div>
@@ -85,7 +83,6 @@ itzfizz-scroll-hero/
 │   ├── Hero.jsx           # All animation logic (intro + scroll timeline)
 │   └── Car.jsx            # Inline SVG car
 ├── public/.nojekyll
-├── .github/workflows/deploy.yml   # Auto-deploy to GitHub Pages
 ├── next.config.mjs        # Static export + basePath
 ├── tailwind.config.js
 └── package.json
@@ -116,19 +113,11 @@ npm start          # serves ./out at http://localhost:3000
 
 ## 🌐 Deployment
 
-### GitHub Pages (primary)
-
-1. Push this code to the `main` branch.
-2. Go to **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-3. The workflow in `.github/workflows/deploy.yml` builds and publishes automatically on every push.
-4. Live at **https://itzfizz-scroll-hero.onrender.com**
-
-> The workflow reads the repo name and sets `NEXT_PUBLIC_BASE_PATH` automatically, so no config changes are needed.
-
-### Render (mirror)
+Deployed as a static site on **[Render](https://render.com)**.
 
 | Setting | Value |
 | --- | --- |
+| Branch | `main` |
 | Build Command | `npm install && npm run build` |
 | Publish Directory | `out` |
 
