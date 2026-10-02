@@ -26,7 +26,7 @@ https://github.com/user-attachments/assets/d8f0268e-7c5c-41fb-9ae7-7bb5459c0e7f
 
 
 
-**🔗 Live:** https://YOUR_USERNAME.github.io/itzfizz-scroll-hero/
+**🔗 Live:** https://itzfizz-scroll-hero.onrender.com
 
 ---
 
@@ -101,7 +101,7 @@ itzfizz-scroll-hero/
 
 ```bash
 # 1. Clone
-git clone https://github.com/YOUR_USERNAME/itzfizz-scroll-hero.git
+git clone https://github.com/ayeshaikh017/itzfizz-scroll-hero.git
 cd itzfizz-scroll-hero
 
 # 2. Install
@@ -123,7 +123,7 @@ npm start          # serves ./out at http://localhost:3000
 1. Create a repo named **`itzfizz-scroll-hero`** and push this code to `main`.
 2. In the repo go to **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 3. Push to `main` — the workflow in `.github/workflows/deploy.yml` builds and publishes automatically.
-4. Your site will be live at `https://YOUR_USERNAME.github.io/itzfizz-scroll-hero/`.
+4. Your site will be live at https://itzfizz-scroll-hero.onrender.com
 
 > Different repo name? No change needed — the workflow reads the name and sets `NEXT_PUBLIC_BASE_PATH` for you.
 
@@ -142,10 +142,9 @@ npm start          # serves ./out at http://localhost:3000
 
 ## 👤 Author
 
-**Your Name** — [GitHub](https://github.com/YOUR_USERNAME) · [LinkedIn](https://linkedin.com/in/YOUR_HANDLE)
-
+**Your Name** — [GitHub]https://github.com/ayeshaikh017· [LinkedIn]https://www.linkedin.com/in/ayeshaikh0017/
 Built as an assignment for the **Itzfizz Digital** Web Development Internship.
 
 ## 📄 License
 
-MIT © Your Name
+MIT © Ayesha Shaikh
