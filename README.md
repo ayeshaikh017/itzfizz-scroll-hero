@@ -18,16 +18,13 @@ A premium, scroll-controlled hero section with a staggered intro, animated impac
 
 ## 🎬 Demo
 
-> 📌 **Paste your demo video / GIF here.**
-> On GitHub, drag & drop an `.mp4` into this README while editing (it uploads and generates a link), or use one of the options below.
 
-<!-- OPTION 1: GitHub-hosted video (drag & drop mp4 here) -->
-<!-- OPTION 2: YouTube thumbnail link
-[![Watch the demo](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://youtu.be/VIDEO_ID)
--->
-<!-- OPTION 3: GIF
-![Demo](./docs/demo.gif)
--->
+
+https://github.com/user-attachments/assets/d8f0268e-7c5c-41fb-9ae7-7bb5459c0e7f
+
+
+
+
 
 **🔗 Live:** https://YOUR_USERNAME.github.io/itzfizz-scroll-hero/
 
@@ -98,7 +95,7 @@ itzfizz-scroll-hero/
 └── package.json
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 **Prerequisites:** Node.js 18.17+ and npm.
 
