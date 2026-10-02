@@ -21,7 +21,7 @@ A premium, scroll-controlled hero section with a staggered intro, animated impac
 
 https://github.com/user-attachments/assets/d8f0268e-7c5c-41fb-9ae7-7bb5459c0e7f
 
-**🔗 Live:** https://ayeshaikh017.github.io/itzfizz-scroll-hero/ · [Render mirror](https://itzfizz-scroll-hero.onrender.com)
+**🔗 Live:** https://itzfizz-scroll-hero.onrender.com
 
 ---
 
@@ -121,7 +121,7 @@ npm start          # serves ./out at http://localhost:3000
 1. Push this code to the `main` branch.
 2. Go to **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 3. The workflow in `.github/workflows/deploy.yml` builds and publishes automatically on every push.
-4. Live at **https://ayeshaikh017.github.io/itzfizz-scroll-hero/**
+4. Live at **https://itzfizz-scroll-hero.onrender.com**
 
 > The workflow reads the repo name and sets `NEXT_PUBLIC_BASE_PATH` automatically, so no config changes are needed.
 
