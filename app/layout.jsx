@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Itzfizz — Scroll-Driven Hero Animation",
+  title: "Itzfizz Digital | Welcome",
   description:
     "A scroll-driven hero section built with Next.js, Tailwind CSS and GSAP ScrollTrigger.",
 };
