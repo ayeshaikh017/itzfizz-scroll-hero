@@ -4,12 +4,13 @@
 
 A premium, scroll-controlled hero section with a staggered intro, animated impact metrics and a car that drives across the screen as you scroll.
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-c6ff3d?style=for-the-badge&logo=githubpages&logoColor=black)](https://YOUR_USERNAME.github.io/itzfizz-scroll-hero/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-c6ff3d?style=for-the-badge&logo=githubpages&logoColor=black)](https://ayeshaikh017.github.io/itzfizz-scroll-hero/)
+[![Render](https://img.shields.io/badge/Render-Mirror-46E3B7?style=for-the-badge&logo=render&logoColor=black)](https://itzfizz-scroll-hero.onrender.com)
 [![Next.js](https://img.shields.io/badge/Next.js-14-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![GSAP](https://img.shields.io/badge/GSAP-ScrollTrigger-88CE02?style=for-the-badge&logo=greensock&logoColor=white)](https://gsap.com/)
-[![Deploy](https://img.shields.io/github/actions/workflow/status/YOUR_USERNAME/itzfizz-scroll-hero/deploy.yml?style=for-the-badge&label=Pages%20Deploy)](https://github.com/YOUR_USERNAME/itzfizz-scroll-hero/actions)
+[![Deploy](https://img.shields.io/github/actions/workflow/status/ayeshaikh017/itzfizz-scroll-hero/deploy.yml?style=for-the-badge&label=Pages%20Deploy)](https://github.com/ayeshaikh017/itzfizz-scroll-hero/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](#-license)
 
 </div>
@@ -18,15 +19,9 @@ A premium, scroll-controlled hero section with a staggered intro, animated impac
 
 ## 🎬 Demo
 
-
-
 https://github.com/user-attachments/assets/d8f0268e-7c5c-41fb-9ae7-7bb5459c0e7f
 
-
-
-
-
-**🔗 Live:** https://itzfizz-scroll-hero.onrender.com
+**🔗 Live:** https://ayeshaikh017.github.io/itzfizz-scroll-hero/ · [Render mirror](https://itzfizz-scroll-hero.onrender.com)
 
 ---
 
@@ -83,6 +78,7 @@ Scroll    ──► ONE ScrollTrigger timeline (pinned, scrub: 1.2)
 itzfizz-scroll-hero/
 ├── app/
 │   ├── globals.css        # Tailwind layers + small global helpers
+│   ├── icon.svg           # Favicon
 │   ├── layout.jsx         # Root layout & metadata
 │   └── page.jsx           # Hero + follow-up section
 ├── components/
@@ -95,7 +91,7 @@ itzfizz-scroll-hero/
 └── package.json
 ```
 
-## Getting Started
+## 🚀 Getting Started
 
 **Prerequisites:** Node.js 18.17+ and npm.
 
@@ -118,14 +114,25 @@ npm run build      # outputs to ./out
 npm start          # serves ./out at http://localhost:3000
 ```
 
-## 🌐 Deploying to GitHub Pages
+## 🌐 Deployment
 
-1. Create a repo named **`itzfizz-scroll-hero`** and push this code to `main`.
-2. In the repo go to **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-3. Push to `main` — the workflow in `.github/workflows/deploy.yml` builds and publishes automatically.
-4. Your site will be live at https://itzfizz-scroll-hero.onrender.com
+### GitHub Pages (primary)
 
-> Different repo name? No change needed — the workflow reads the name and sets `NEXT_PUBLIC_BASE_PATH` for you.
+1. Push this code to the `main` branch.
+2. Go to **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+3. The workflow in `.github/workflows/deploy.yml` builds and publishes automatically on every push.
+4. Live at **https://ayeshaikh017.github.io/itzfizz-scroll-hero/**
+
+> The workflow reads the repo name and sets `NEXT_PUBLIC_BASE_PATH` automatically, so no config changes are needed.
+
+### Render (mirror)
+
+| Setting | Value |
+| --- | --- |
+| Build Command | `npm install && npm run build` |
+| Publish Directory | `out` |
+
+Live at **https://itzfizz-scroll-hero.onrender.com**
 
 ## 🎛️ Customising
 
@@ -142,7 +149,8 @@ npm start          # serves ./out at http://localhost:3000
 
 ## 👤 Author
 
-**Your Name** — [GitHub]https://github.com/ayeshaikh017· [LinkedIn]https://www.linkedin.com/in/ayeshaikh0017/
+**Ayesha Shaikh** — [GitHub](https://github.com/ayeshaikh017) · [LinkedIn](https://www.linkedin.com/in/ayeshaikh0017/)
+
 Built as an assignment for the **Itzfizz Digital** Web Development Internship.
 
 ## 📄 License
